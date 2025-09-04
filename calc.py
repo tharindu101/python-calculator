@@ -14,3 +14,10 @@ def compute(expression):
     else:
         print('unknown operator!')
         return None
+
+# My contribution : To accept user input
+if __name__ == "__main__":
+    expr = input("Enter an expression (e.g., 3 + 4): ")
+    result = compute(expr)
+    if result is not None:
+        print("Result:", result)
